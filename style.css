@@ -1,0 +1,80 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#b1 {
+    padding: 3px;
+    background-color: rgb(45, 94, 53);
+    cursor: pointer;
+}
+
+#b2 {
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px;
+}
+
+#b3 {
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(45, 94, 53);
+
+}
+
+#b4{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(45, 94, 53);
+}
+
+#b5 {
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(45, 94, 53);
+}

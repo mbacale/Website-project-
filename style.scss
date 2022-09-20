@@ -1,0 +1,10 @@
+@mixin bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+$main-bg-color: grey;
+$green-color: green;
