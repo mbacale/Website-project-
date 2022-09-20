@@ -46,7 +46,6 @@
 
 
 
-
 #b1 {
     padding: 3px;
     background-color: rgb(45, 94, 53);
@@ -60,21 +59,74 @@
     padding: 3px;
 }
 
-#b3 {
+#b1l {
     cursor: pointer;
     padding: 20px;
     background-color: rgb(45, 94, 53);
 
 }
 
-#b4{
+#b1m{
     cursor: pointer;
     padding: 10px;
     background-color: rgb(45, 94, 53);
 }
 
-#b5 {
+#b1s {
     cursor: pointer;
     padding: 2px;
     background-color: rgb(45, 94, 53);
+}
+
+#b2 {
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px;
+}
+
+#b2s {
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 3px;
+}
+
+#b2m {
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 10px;
+}
+
+#b2l {
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 20px;
+}
+
+#b3{
+    cursor: none;
+    padding: 3px;
+    background-color: rgba(45, 94, 53, 0.158);
+
+}
+#b3s{
+    cursor: none;
+    padding: 3x;
+    background-color: rgba(45, 94, 53, 0.158);
+
+}
+#b3m{
+    cursor: none;
+    padding: 10px;
+    background-color: rgba(45, 94, 53, 0.158);
+
+}
+#b3l{
+    cursor: none;
+    padding: 20px;
+    background-color: rgba(45, 94, 53, 0.158);
+
 }
