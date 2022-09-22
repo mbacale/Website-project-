@@ -59,9 +59,7 @@ li{
     cursor: pointer;
     border-radius: 10%;
     border-color: transparent;
-
 }
-
 #b2 {
     background-color: rgb(95, 199, 86);
     background-color: transparent;
@@ -69,9 +67,7 @@ li{
     padding: 3px;    
     border-radius: 10%;
     border-color: transparent;
-
 }
-
 #b1l {
     cursor: pointer;
     padding: 20px;
@@ -79,38 +75,28 @@ li{
     border-color: transparent;
     border-radius: 10%;
     border-radius: 10%;
-
-
-
 }
-
 #b1m{
     cursor: pointer;
     padding: 10px;
     background-color: rgb(95, 199, 86);
     border-color: transparent;
     border-radius: 10%;
-
-
 }
-
 #b1s {
     cursor: pointer;
     padding: 2px;
     background-color: rgb(95, 199, 86);
     border-color: transparent;
     border-radius: 10%;
-
-
 }
-
 #b2 {
     cursor: pointer;
     outline: rgb(45, 94, 53);
     background-color: transparent;
     padding: 3px;
+    border-radius: 10%;
 }
-
 #b2s {
     cursor: pointer;
     outline: rgb(45, 94, 53);
@@ -118,7 +104,6 @@ li{
     padding: 3px;
     border-radius: 10%;
 }
-
 #b2m {
     cursor: pointer;
     outline: rgb(45, 94, 53);
@@ -126,7 +111,6 @@ li{
     padding: 10px;
     border-radius: 10%;
 }
-
 #b2l {
     cursor: pointer;
     outline: rgb(45, 94, 53);
@@ -135,7 +119,6 @@ li{
     border-radius: 10%;
 
 }
-
 #b3{
     cursor:not-allowed;
     padding: 3px;
@@ -150,7 +133,6 @@ li{
     background-color: rgb(52, 59, 54);
     border-radius: 10%;
     border-color: transparent;
-
 }
 #b3m{
     cursor:not-allowed;
@@ -158,7 +140,6 @@ li{
     background-color: rgb(52, 59, 54);
     border-radius: 10%;
     border-color: transparent;
-
 }
 #b3l{
     cursor:not-allowed;
@@ -166,5 +147,8 @@ li{
     background-color: rgb(52, 59, 54);
     border-radius: 10%;
     border-color: transparent;
-
 }
+
+
+
+
