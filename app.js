@@ -11,3 +11,25 @@ function copyText() {
     document.getElementById("clipboard")
         .innerHTML = Text.value;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function thanks() {
+    var w = innerHTML.getElementById("")
+    alert("Thank you for your sumbimiton! We will respond as soon as we can.")
+}

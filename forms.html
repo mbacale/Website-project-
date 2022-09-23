@@ -9,11 +9,16 @@
 
 </head>
 <body>
-    <form>
-        <label for="fname">text:</label></br>
-        <input type="text" id="i" name="fname">
-        <label for="lname">text:</label></br>
-        <input type="text" id="l" name="lname">
-    </form>
-</body>
+    <div class="wrapper">
+      <form class="form">
+        <div class="pageTitle title">Support</div>
+        <div class="secondaryTitle title">Please fill this form to recive support</div>
+        <input type="text" class="name formEntry" placeholder="Name" />
+        <input type="text" class="email formEntry" placeholder="Email"/>
+        <textarea class="message formEntry" placeholder="Message"></textarea>
+        <button class="submit formEntry" onclick="thanks()">Submit</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
