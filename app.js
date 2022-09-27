@@ -30,6 +30,5 @@ function copyText() {
 
 
 function thanks() {
-    var w = innerHTML.getElementById("")
-    alert("Thank you for your sumbimiton! We will respond as soon as we can.")
+    alert("Thank you for your sumbimiton! We will respond as soon as we can.");
 }
