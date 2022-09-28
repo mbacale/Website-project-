@@ -1,22 +1,28 @@
+#textbox {
+    height: 200px;
+    width: 700px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+.navbar {
+    
+}
+
 ul{
-  list-style-type: none;
-  display: inline;
+    display: inline;
+    margin-left: 150px;
 }
 
 li{
-  display: inline;
+    display: inline;
 }
 
-#textbox {
-  height: 200px;
-  width: 700px;
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
+#listitems {
+    padding: 50px;
 }
-
-
 
 
 
@@ -81,190 +87,192 @@ li{
 
 #b1 {
 
-  background-color: rgb(95, 199, 86);
-  cursor: pointer;
-  border-radius: 10%;
-  border-color: transparent;
+    background-color: rgb(95, 199, 86);
+    cursor: pointer;
+    border-radius: 10%;
+    border-color: transparent;
 }
 #b2 {
-  background-color: rgb(95, 199, 86);
-  background-color: transparent;
-  cursor: pointer;
-  padding: 3px;    
-  border-radius: 10%;
-  border-color: transparent;
+    background-color: rgb(95, 199, 86);
+    background-color: transparent;
+    cursor: pointer;
+    padding: 3px;    
+    border-radius: 10%;
+    border-color: transparent;
 }
 #b1l {
-  cursor: pointer;
-  padding: 20px;
-  background-color: rgb(95, 199, 86);
-  border-color: transparent;
-  border-radius: 10%;
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgb(95, 199, 86);
+    border-color: transparent;
+    border-radius: 10%;
 }
 #b1m{
-  cursor: pointer;
-  padding: 10px;
-  background-color: rgb(95, 199, 86);
-  border-color: transparent;
-  border-radius: 10%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(95, 199, 86);
+    border-color: transparent;
+    border-radius: 10%;
 }
 #b1s {
-  cursor: pointer;
-  padding: 2px;
-  background-color: rgb(95, 199, 86);
-  border-color: transparent;
-  border-radius: 10%;
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(95, 199, 86);
+    border-color: transparent;
+    border-radius: 10%;
 }
 #b2 {
-  cursor: pointer;
-  outline: rgb(45, 94, 53);
-  background-color: transparent;
-  padding: 3px;
-  border-radius: 10%;
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 10%;
 }
 #b2s {
-  cursor: pointer;
-  outline: rgb(45, 94, 53);
-  background-color: transparent;
-  padding: 3px;
-  border-radius: 10%;
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 3px;
+    border-radius: 10%;
 }
 #b2m {
-  cursor: pointer;
-  outline: rgb(45, 94, 53);
-  background-color: transparent;
-  padding: 10px;
-  border-radius: 10%;
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10%;
 }
 #b2l {
-  cursor: pointer;
-  outline: rgb(45, 94, 53);
-  background-color: transparent;
-  padding: 20px;
-  border-radius: 10%;
+    cursor: pointer;
+    outline: rgb(45, 94, 53);
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10%;
 
 }
 #b3{
-  cursor:not-allowed;
-  padding: 3px;
-  background-color: rgb(52, 59, 54);
-  border-radius: 10%;
-  border-color: transparent;
+    cursor:not-allowed;
+    padding: 3px;
+    background-color: rgb(52, 59, 54);
+    border-radius: 10%;
+    border-color: transparent;
 
 }
 #b3s{
-  cursor:not-allowed;
-  padding: 3x;
-  background-color: rgb(52, 59, 54);
-  border-radius: 10%;
-  border-color: transparent;
+    cursor:not-allowed;
+    padding: 3x;
+    background-color: rgb(52, 59, 54);
+    border-radius: 10%;
+    border-color: transparent;
 }
 #b3m{
-  cursor:not-allowed;
-  padding: 10px;
-  background-color: rgb(52, 59, 54);
-  border-radius: 10%;
-  border-color: transparent;
+    cursor:not-allowed;
+    padding: 10px;
+    background-color: rgb(52, 59, 54);
+    border-radius: 10%;
+    border-color: transparent;
 }
 #b3l{
-  cursor:not-allowed;
-  padding: 20px;
-  background-color: rgb(52, 59, 54);
-  border-radius: 10%;
-  border-color: transparent;
+    cursor:not-allowed;
+    padding: 20px;
+    background-color: rgb(52, 59, 54);
+    border-radius: 10%;
+    border-color: transparent;
 }
 
 
 
 
 
+  
+  #title-Tag-Line {
+    font-size: 20px;
+  }
 
-#title-Tag-Line {
-  font-size: 20px;
-}
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: black;
+  }
 
-.form {
-  background: #fff;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
-  border-radius: 5px;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  left: 0;
-  right: 0;
-  position: absolute;
-}
+  
+  .email {
+    background-color: #ebebeb;
+    height: 20px;
+  }
+  
 
-.title{
-  display: block;
-  font-family: sans-serif;
-  margin: 10px auto 5px;
-  width: 300px;
-}
-.termsConditions{
-  margin: 0 auto 5px 80px;
-}
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 160px;
+  }
+  
 
-.pageTitle{
-  font-size: 40px;
-  font-weight: bold;
-}
-.secondaryTitle{
-  color: grey;
-}
-
-.name {
-  background-color: #ebebeb;
-  color: black;
-}
-
-
-.email {
-  background-color: #ebebeb;
-  height: 20px;
-}
-
-
-
-.message {
-  background-color: #ebebeb;
-  overflow: hidden;
-  height: 160px;
-}
-
-
-
-.formEntry {
-  display: block;
-  margin: 30px auto;
-  min-width: 300px;
-  padding: 10px;
-  border-radius: 2px;
-  border: none;
-}
-
-.submit {
-  width: 200px;
-  color: white;
-  background-color:rgb(95, 199, 86);
-  font-size: 20px;
-  cursor: pointer;
-}
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color:rgb(95, 199, 86);
+    font-size: 20px;
+    cursor: pointer;
+  }
 
 .hero {
-background-color: lightgray;
-color: white;
-height: 200px;
-text-align: center;
-font-size: 28px;
+  background-color: lightgray;
+  color: white;
+  height: 200px;
+  text-align: center;
+  font-size: 28px;
 }
 
 .para {
-text-align: left;
-color: black;
-background-color: black;
-font-size: 22px;
-font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  color: black;
+  background-color: black;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
 }
+  
+
