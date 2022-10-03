@@ -8,22 +8,14 @@
 }
 
 .pagelinks{
-  background-color: red;
   width: 250px;
   text-align: center;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: black;
   height: 2000px;
 }
 
 .codework{
   margin-left: 400px;
-  margin-top: -2000px;
-  background-color: blue;
-  border-radius: 2px;
-  border-style: solid;
-  border-color: black;
+  margin-top: -2030px;
 }
 
 .homecode{
@@ -52,7 +44,20 @@ li{
   padding: 50px;
 }
 
+.example-code{
+  background-color: #999;
+  height: 200px;
+  width: 743px;
+}
 
+.grid-box{
+  display: grid;
+  grid-template-columns: repeat;
+}
+
+.item{
+
+}
 
 
 
