@@ -40,8 +40,6 @@
                 <h4>ON THIS PAGE</h4>
                 <div class="line" id="1"></div>
                 <h6><a href="#Quick">Quick Start</a></h6>
-                <h6><a href="#Framework">Framework Files</a></h6>
-                <h6><a href="#HTML5">HTML5 Doctype</a></h6>
             </div>
         </div>
 
@@ -51,93 +49,45 @@
                 <h1><a name="Quick">Quick Start</a></h1>
                 <div class="line" id="2"></div>
                 <!--START OF STEP 1-->
-                <h4>1. Create a new index.html file in your main folder, include the metaname tag for proper mobile device behavior</h4>
+                <h4>1. Create a index.html file in your main folder, include this information to begin working on the rest of the html code.</h4>
                 <div class="code-1">
                 <!--START OF EXAMPLE CODE-->
                     <textarea id="textbox">
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DEMO</title>
     </head>
     <body>
-        <h1>Hello, world!</h1>
     </body>
 </html>
                     </textarea><br/>
                     <button div="Copybutton" onclick="copyText()">Copy</button>
                 </div>
                 <!--START OF STEP 2-->
-                <h4>2. Include Bootstraps CSS and JS. Place the link tag in the head, for our CSS, and the script tag for our JavaScript bundle (including Popper for positioning dropdowns, poppers, and tooltips) before the closing body. Learn more about our CDN links.</h4>
+                <h4>2. Include CSS and JS links to index.html file.</h4>
                 <div class="code-1">
                     <textarea id="textbox">
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DEMO</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Hello, world!</h1>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
     </body>
 </html>
                     </textarea><br/>
                     <button div="Copybutton" onclick="copyText()">Copy</button>
                 </div>
             </div>
-
-            <div class="FF">
-                <h1><a name="Framework">Framework Files</a></h1>
-                <div class="line" id="3"></div>
-                <h4>As reference, here are our primary CDN links.</h4>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th>Description</th>
-                        <th></th>
-                        <th>URL</th>
-                        <th></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th>CSS</th>
-                        <th></th>
-                        <th>https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css</th>
-                        <th></th>
-                      </tr>
-                      <tr>
-                        <th>JS</th>
-                        <th></th>
-                        <th>https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js</th>
-                        <th></th>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-
-            <div class="H5">
-                <h1><a name="HTML5">HTML5 Doctype</a></h1>
-                <div class="line" id="4"></div>
-                <h4>Bootstrap requires the use of the HTML5 doctype. Without it, you’ll see some funky and incomplete styling.</h4>
-                <div class="code-1">
-                    <textarea id="textbox">
-<!doctype html>
-<html lang="en">
-    ...
-</html>
-                    </textarea><br/>
-                    <button div="Copybutton" onclick="copyText()">Copy</button>
-                </div>
-            </div>
-            </div>
-
-        </div>
 
     <script src="app.js"></script>
     </body>
