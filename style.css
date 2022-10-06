@@ -15,7 +15,7 @@
 
 .codework{
   margin-left: 400px;
-  margin-top: -1030px;
+  margin-top: -1039px;
 }
 
 .homecode{
@@ -28,6 +28,10 @@
 
 .navlist{
   margin-top: -100px;
+}
+
+a{
+  color: rgb(66, 211, 66);
 }
 
 ul{
@@ -104,12 +108,13 @@ li{
   margin-left: -2px;
 }
 
-@media only screen and (max-width:950px) {
-  .grid {
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(4, 40vh);
-  }
+.line{
+  background-color: black;
+  height: 2px;
+  width: 250px;
 }
+
+
 
 
 
