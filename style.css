@@ -1,12 +1,3 @@
-ul{
-  list-style-type: none;
-  display: inline;
-}
-
-li{
-  display: inline;
-}
-
 #textbox {
   height: 200px;
   width: 700px;
@@ -16,7 +7,50 @@ li{
   padding: 20px;
 }
 
+.pagelinks{
+  background-color: red;
+  width: 250px;
+  text-align: center;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+  height: 2000px;
+}
 
+.codework{
+  margin-left: 400px;
+  margin-top: -2000px;
+  background-color: blue;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.homecode{
+  height: 2000px;
+}
+
+.herobarcode{
+  height: 300px;
+}
+
+.navlist{
+  margin-top: -100px;
+}
+
+ul{
+  display: inline;
+  margin-left: 240px;
+}
+
+li{
+  display: inline;
+  font-size: 20px;
+}
+
+#listitems {
+  padding: 50px;
+}
 
 
 
@@ -174,7 +208,113 @@ li{
   border-color: transparent;
 }
 
+@media only screen and (max-width: 600px) {
+  #b1 {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px;
+    max-width: 100%;
+  }
 
+  #b2 {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b1l {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b1m {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b1s{
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b2 {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b2s{
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b2m {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b2l {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b3 {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b3s {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b3m {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+  #b3l {
+    border:1px solid gray;
+    border-radius:7%;
+    font-size:0.875;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 100%;
+  }
+}
 
 
 
@@ -185,11 +325,8 @@ li{
 
 .form {
   background: #fff;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 5px;
   max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
   left: 0;
@@ -198,8 +335,6 @@ li{
 }
 
 .title{
-  display: block;
-  font-family: sans-serif;
   margin: 10px auto 5px;
   width: 300px;
 }
@@ -208,8 +343,7 @@ li{
 }
 
 .pageTitle{
-  font-size: 40px;
-  font-weight: bold;
+font-size: 40px;
 }
 .secondaryTitle{
   color: grey;
@@ -234,15 +368,12 @@ li{
 
 }
 
-
-
 .formEntry {
   display: block;
   margin: 30px auto;
   min-width: 300px;
   padding: 10px;
   border-radius: 2px;
-  border: none;
 }
 
 .submit {
@@ -252,6 +383,37 @@ li{
   font-size: 20px;
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+  .form {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .title {
+    width: 200px;
+  }
+  .name {
+    background-color: aqua;
+    max-width: 100px;
+    
+    }
+  .message {
+   background-color: aqua;
+   max-width: 100px;
+  }
+  .email {
+    background-color: aqua;
+    max-width: 100px;
+  }
+}
+
+
+
 
 .hero {
 background-color: lightgray;
@@ -278,16 +440,22 @@ font-family: 'Courier New', Courier, monospace;
   height: 200px;
   display: block;
   font-family: sans-serif;
-  font-size: 25px
+  font-size: 25px;
+  display: block;
+
 
 }
 
 .stext {
+  align-content: center;
   color: black;
   width: 330px;
   height: 40px;
   text-align: center;
   margin-top: -120px;
+  background-position: center;
+
+
 }
 
 
@@ -301,4 +469,71 @@ font-family: 'Courier New', Courier, monospace;
 
 .but{
   margin-bottom: 20px;
+  width: fit-content;
+  margin-left: 13px;
+}
+
+.wrapper {
+  background-color: rgb(235, 230, 230);
+  height: 100vh;
+}
+
+.blue {
+  color: blue;
+  background-color: #BEF;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  width: 50%;
+
+
+}
+.green {
+  color: green;
+  background-color: #DFF2BF;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  width: 50%;
+
+}
+.yellow {
+  color: brown;
+  background-color: #FEEFB3;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  width: 50%;
+
+}
+.red {
+  color: red;
+  background-color: #FFBABA;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  text-align: center;
+  width: 50%;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .blue{
+    width: 200px;
+  }
+  .green{
+    width: 200px;
+
+  }
+  .yellow{
+    width: 200px;
+
+  }
+  .red {
+    width: 200px;
+
+  }
 }
