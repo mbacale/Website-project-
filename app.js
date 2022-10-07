@@ -12,6 +12,14 @@ function copyText() {
         .innerHTML = Text.value;
 }
 
+function rightanswer() {
+    alert("Your Right")
+}
+
+function wronganswer() {
+    alert("Your Wrong")
+}
+
 
 
 
