@@ -119,15 +119,16 @@ li{
   width: 250px;
 }
 
-@media only screen and (max-width: 425px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
   ul{
     display: inline;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   
   li{
     display: inline;
-    font-size: 6px;
+    font-size: 6.5px;
   }
 
   #logo{
@@ -141,18 +142,18 @@ li{
   }
 
   #listitems {
-    padding: 10px;
+    padding: 3px;
   }
 
   .navbar {
-    width: 980px;
+    width: 340px;
     height: 140px;
     margin-left: -20px;
   }
 
   #textbox {
     height: 200px;
-    width: 150px;
+    width: 167px;
     background-color: #eee;
     border: 1px solid #999;
     display: block;
@@ -164,24 +165,45 @@ li{
   }
 
   .pagelinks {
-    margin-left: -50px;
+    margin-left: -100px;
+    font-size: 10px;
   }
 
   .line{
     background-color: black;
     height: 2px;
-    width: 200px;
+    width: 160px;
   }
 
   .codework{
-    margin-left: 200px;
-    margin-top: -1039px;
+    margin-left: 100px;
+    margin-top: -1027px;
   }
 
   .example-code{
     background-color: #999;
     height: 200px;
-    width: 384px;
+    width: 210px;
+  }
+
+  .IG{
+    font-size: 10px;
+  }
+
+  .SH{
+    font-size: 10px;
+  }
+
+  .QS{
+    font-size: 10px;
+  }
+
+  .EX{
+    font-size: 10px;
+  }
+
+  .EW{
+    font-size: 10px;
   }
 
   .navbar-image {
@@ -198,21 +220,23 @@ li{
   }
 }
 
-@media only screen and (max-width: 768px) {
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   ul{
     display: inline;
-    margin-left: 20px;
+    margin-left: 100px;
   }
   
   li{
     display: inline;
-    font-size: 6px;
+    font-size: 20px;
   }
 
   #logo{
-    width: 120px;
+    width: 160px;
     height: 140px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
 
   .navlist {
@@ -231,7 +255,7 @@ li{
 
   #textbox {
     height: 200px;
-    width: 170px;
+    width: 487px;
     background-color: #eee;
     border: 1px solid #999;
     display: block;
@@ -239,28 +263,28 @@ li{
   }
 
   h4{
-    width: 200px;
+    width: 480px;
   }
 
   .pagelinks {
-    margin-left: -50px;
+    margin-left: -20px;
   }
 
   .line{
     background-color: black;
     height: 2px;
-    width: 200px;
+    width: 300px;
   }
 
   .codework{
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: -1039px;
   }
 
   .example-code{
     background-color: #999;
     height: 200px;
-    width: 384px;
+    width: 530px;
   }
 
   .navbar-image {
@@ -277,21 +301,24 @@ li{
   }
 }
 
-@media only screen and (max-width: 1024px) {
+
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1024px) {
   ul{
     display: inline;
-    margin-left: 15px;
+    margin-left: 100px;
   }
   
   li{
     display: inline;
-    font-size: 9.8px;
+    font-size: 20px;
   }
 
   #logo{
-    width: 110px;
-    height: 130px;
-    margin-left: -20px;
+    width: 160px;
+    height: 140px;
+    margin-left: -10px;
   }
 
   .navlist {
@@ -299,18 +326,18 @@ li{
   }
 
   #listitems {
-    padding: 10px;
+    padding: 15px;
   }
 
   .navbar {
-    width: 980px;
+    width: 1010px;
     height: 140px;
     margin-left: -20px;
   }
 
   #textbox {
     height: 200px;
-    width: 260px;
+    width: 545px;
     background-color: #eee;
     border: 1px solid #999;
     display: block;
@@ -318,28 +345,108 @@ li{
   }
 
   h4{
-    width: 280px;
+    width: 600px;
   }
 
   .pagelinks {
-    margin-left: -50px;
+    margin-left: -20px;
   }
 
   .line{
     background-color: black;
     height: 2px;
-    width: 200px;
+    width: 300px;
   }
 
   .codework{
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: -1039px;
   }
 
   .example-code{
     background-color: #999;
     height: 200px;
-    width: 384px;
+    width: 587px;
+  }
+
+  .navbar-image {
+    padding: 15px;
+  }
+  
+  .nav-box{
+    padding: 30px;
+  }
+  
+  #example-nav-li {
+    display: inline;
+    padding: 20px;
+  }
+}
+
+/* Extra Large screens ----------- */
+@media only screen  and (min-width : 1024px) {
+  ul{
+    display: inline;
+    margin-left: 100px;
+  }
+  
+  li{
+    display: inline;
+    font-size: 20px;
+  }
+
+  #logo{
+    width: 160px;
+    height: 140px;
+    margin-left: -10px;
+  }
+
+  .navlist {
+    margin-top: -82px;
+  }
+
+  #listitems {
+    padding: 15px;
+  }
+
+  .navbar {
+    width: 1010px;
+    height: 140px;
+    margin-left: -20px;
+  }
+
+  #textbox {
+    height: 200px;
+    width: 545px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+
+  h4{
+    width: 600px;
+  }
+
+  .pagelinks {
+    margin-left: -20px;
+  }
+
+  .line{
+    background-color: black;
+    height: 2px;
+    width: 300px;
+  }
+
+  .codework{
+    margin-left: 400px;
+    margin-top: -1039px;
+  }
+
+  .example-code{
+    background-color: #999;
+    height: 200px;
+    width: 587px;
   }
 
   .navbar-image {
