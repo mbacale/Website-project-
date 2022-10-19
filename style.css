@@ -169,6 +169,10 @@ li{
     font-size: 10px;
   }
 
+  .left-bar{
+    display: none;
+  }
+
   .line{
     background-color: black;
     height: 2px;
@@ -176,8 +180,8 @@ li{
   }
 
   .codework{
-    margin-left: 100px;
-    margin-top: -1027px;
+    margin-left: 50px;
+    margin-top: -0px;
   }
 
   .example-code{
@@ -270,15 +274,19 @@ li{
     margin-left: -20px;
   }
 
+  .left-bar{
+    display: none;
+  }
+
+  .codework{
+    margin-left: 200px;
+    margin-top: -0px;
+  }
+
   .line{
     background-color: black;
     height: 2px;
     width: 300px;
-  }
-
-  .codework{
-    margin-left: 400px;
-    margin-top: -1039px;
   }
 
   .example-code{
@@ -304,164 +312,275 @@ li{
 
 
 /* Large screens ----------- */
-@media only screen  and (min-width : 1024px) {
-  ul{
-    display: inline;
-    margin-left: 100px;
-  }
-  
-  li{
-    display: inline;
-    font-size: 20px;
-  }
+@media only screen  and (min-width : 1024px) and (max-width : 1024px) {
+#textbox {
+  height: 200px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
 
-  #logo{
-    width: 160px;
-    height: 140px;
-    margin-left: -10px;
-  }
+#logo{
+  width: 200px;
+  height: 190px;
+  margin-left: -20px;
+}
 
-  .navlist {
-    margin-top: -82px;
-  }
+.pagelinks{
+  width: 250px;
+  text-align: center;
+  height: 1000px;
+}
 
-  #listitems {
-    padding: 15px;
-  }
+.navbar{
+  background-color: rgba(18,40,61,255);
+  height: 201px;
+  width: 1162px;
+}
 
-  .navbar {
-    width: 1010px;
-    height: 140px;
-    margin-left: -20px;
-  }
+.left-bar{
+  display: none;
+}
 
-  #textbox {
-    height: 200px;
-    width: 545px;
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-  }
+.codework{
+  margin-left: 200px;
+  margin-top: -0px;
+}
 
-  h4{
-    width: 600px;
-  }
+.homecode{
+  height: 500px;
+}
 
-  .pagelinks {
-    margin-left: -20px;
-  }
+.herobarcode{
+  height: 300px;
+}
 
-  .line{
-    background-color: black;
-    height: 2px;
-    width: 300px;
-  }
+.navlist{
+  margin-top: -100px;
+}
 
-  .codework{
-    margin-left: 400px;
-    margin-top: -1039px;
-  }
+a{
+  color: rgb(66, 211, 66);
+}
 
-  .example-code{
-    background-color: #999;
-    height: 200px;
-    width: 587px;
-  }
+ul{
+  display: inline;
+  margin-left: 140px;
+}
 
-  .navbar-image {
-    padding: 15px;
-  }
-  
-  .nav-box{
-    padding: 30px;
-  }
-  
-  #example-nav-li {
-    display: inline;
-    padding: 20px;
-  }
+li{
+  display: inline;
+  font-size: 20px;
+}
+
+#listitems {
+  padding: 20px;
+}
+
+.example-code{
+  background-color: #999;
+  height: 200px;
+  width: 743px;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  grid-auto-rows: minmax(200px, auto);
+}
+.item-1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  background-color: RED;
+  text-align: center;
+}
+
+.item-2 {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  background-color: BLUE;
+  text-align: center;
+}
+
+.rightanswer {
+  background-color: rgb(27, 203, 27);
+  padding: 41px;
+}
+
+.wronganswer {
+  background-color: red;
+  padding: 41px;
+}
+
+.herobar-button {
+  background-color: rgb(14, 90, 212);
+  color: white;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.navbar-image {
+  padding: 10px;
+}
+
+.nav-box{
+  padding: 20px;
+}
+
+#example-nav-li {
+  display: inline;
+  padding: 60px;
+}
+
+#example-nav-ul {
+  margin-left: -2px;
+}
+
+.line{
+  background-color: black;
+  height: 2px;
+  width: 250px;
+}
 }
 
 /* Extra Large screens ----------- */
-@media only screen  and (min-width : 1024px) {
+@media only screen  and (min-width : 1440px) and (max-width : 1440px) {
+  #textbox {
+    height: 200px;
+    width: 700px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+  
+  .pagelinks{
+    width: 250px;
+    text-align: center;
+    height: 1000px;
+  }
+
+  .left-bar{
+    display: none;
+  }
+  
+  .codework{
+    margin-left: 300px;
+    margin-top: -0px;
+  }
+  
+  #logo{
+    width: 200px;
+    height: 190px;
+    margin-left: -0px;
+  }
+  
+  .navbar{
+    background-color: rgba(18,40,61,255);
+    height: 201px;
+    width: 1420px;
+  }
+  
+  .homecode{
+    height: 500px;
+  }
+  
+  .herobarcode{
+    height: 300px;
+  }
+  
+  .navlist{
+    margin-top: -100px;
+  }
+  
+  a{
+    color: rgb(66, 211, 66);
+  }
+  
   ul{
     display: inline;
-    margin-left: 100px;
+    margin-left: 200px;
   }
   
   li{
     display: inline;
     font-size: 20px;
   }
-
-  #logo{
-    width: 160px;
-    height: 140px;
-    margin-left: -10px;
-  }
-
-  .navlist {
-    margin-top: -82px;
-  }
-
+  
   #listitems {
-    padding: 15px;
+    padding: 30px;
   }
-
-  .navbar {
-    width: 1010px;
-    height: 140px;
-    margin-left: -20px;
-  }
-
-  #textbox {
-    height: 200px;
-    width: 545px;
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-  }
-
-  h4{
-    width: 600px;
-  }
-
-  .pagelinks {
-    margin-left: -20px;
-  }
-
-  .line{
-    background-color: black;
-    height: 2px;
-    width: 300px;
-  }
-
-  .codework{
-    margin-left: 400px;
-    margin-top: -1039px;
-  }
-
+  
   .example-code{
     background-color: #999;
     height: 200px;
-    width: 587px;
+    width: 743px;
   }
-
+  
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+  .item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color: RED;
+    text-align: center;
+  }
+  
+  .item-2 {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    background-color: BLUE;
+    text-align: center;
+  }
+  
+  .rightanswer {
+    background-color: rgb(27, 203, 27);
+    padding: 41px;
+  }
+  
+  .wronganswer {
+    background-color: red;
+    padding: 41px;
+  }
+  
+  .herobar-button {
+    background-color: rgb(14, 90, 212);
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  
   .navbar-image {
-    padding: 15px;
+    padding: 10px;
   }
   
   .nav-box{
-    padding: 30px;
+    padding: 20px;
   }
   
   #example-nav-li {
     display: inline;
-    padding: 20px;
+    padding: 60px;
   }
-}
+  
+  #example-nav-ul {
+    margin-left: -2px;
+  }
+  
+  .line{
+    background-color: black;
+    height: 2px;
+    width: 250px;
+  }
+  }
+
 
 
 
